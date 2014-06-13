@@ -4,6 +4,11 @@
   use Symfony\Component\Console\Input\InputOption;
   use Symfony\Component\Console\Input\InputArgument;
 
+  /**
+   * Class VidCompCommand
+   *
+   * Adds a laravel artisan command to display information about the passed in files
+   */
   class VidCompCommand extends Command
   {
 
@@ -46,6 +51,8 @@
 
     /**
      * Show results
+     *
+     * todo: add xml option
      */
     protected function showResults($results) {
       foreach ($results as $header => $tests) {

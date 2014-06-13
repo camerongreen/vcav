@@ -1,7 +1,13 @@
 <?php
 
+  /**
+   * Class FfProbe
+   *
+   * Runs the FFProbe tool and returns information about the passed in filename
+   */
   class FfProbe extends ToolBase
   {
+    // todo: put into config
     protected $command = '/usr/local/bin/ffprobe -show_format -show_streams -show_data -show_error -show_versions -print_format xml';
 
     /**

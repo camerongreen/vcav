@@ -1,6 +1,12 @@
 <?php
 
+  /**
+   * Class MediaInfo
+   *
+   * Runs the MediInfo tool and returns information about the passed in filename
+   */
 class MediaInfo extends ToolBase {
+  // todo: put into config
   protected $command = '/usr/local/bin/mediainfo -f --Language=raw --Output=XML';
 
   /**
