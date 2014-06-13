@@ -90,14 +90,14 @@
     }
 
     function getAudioCodec() {
-      return $this->getCheck(self::AUDIO_CODEC_CHECK, self::AUDIO_CODEC_BASE, self::AUDIO_CODEC);
+      return $this->getCheck(self::AUDIO_CODEC_CHECK, self::AUDIO_CODEC_CHECK, self::AUDIO_CODEC);
     }
 
     function getAudioSamplingRate() {
-      return $this->getCheck(self::AUDIO_CODEC_CHECK, self::AUDIO_CODEC_BASE, self::AUDIO_SAMPLING_RATE);
+      return $this->getCheck(self::AUDIO_CODEC_CHECK, self::AUDIO_CODEC_CHECK, self::AUDIO_SAMPLING_RATE);
     }
 
     function getAudioCodecId() {
-      return $this->getCheck(self::AUDIO_CODEC_CHECK, self::AUDIO_CODEC_BASE, self::AUDIO_CODEC_ID);
+      return $this->getCheck(self::AUDIO_CODEC_CHECK, self::AUDIO_CODEC_CHECK, self::AUDIO_CODEC_ID);
     }
   }
