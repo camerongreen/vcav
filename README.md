@@ -1,25 +1,11 @@
-## Laravel PHP Framework
+## VIDEO CHARACTERIZATION ANALYSIS VIEWER
 
-[![Build Status](https://travis-ci.org/laravel/framework.svg)](https://travis-ci.org/laravel/framework)
-[![Total Downloads](https://poser.pugx.org/laravel/framework/downloads.svg)](https://packagist.org/packages/laravel/framework)
-[![Latest Stable Version](https://poser.pugx.org/laravel/framework/v/stable.svg)](https://packagist.org/packages/laravel/framework)
-[![Latest Unstable Version](https://poser.pugx.org/laravel/framework/v/unstable.svg)](https://packagist.org/packages/laravel/framework)
-[![License](https://poser.pugx.org/laravel/framework/license.svg)](https://packagist.org/packages/laravel/framework)
+Video preservationists rely heavily on characterization tools to understand the significant properties of the content they are working with. Important attributes to understand include file format, # of tracks, track encoding format(s), duration, frame rate, chroma subsampling, aspect ratio, colorspace, etc.
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable, creative experience to be truly fulfilling. Laravel attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as authentication, routing, sessions, and caching.
+Typically repositories dealing with video preservation will use tools such as MediaInfo, Exiftool, or ffprobe (among others) in order to characterize content. However, it has been recently observed by video art conservators that these tools can produce vastly different output from one another, to the point where duration can be off by minutes. This is clearly a problem.
 
-Laravel aims to make the development process a pleasing one for the developer without sacrificing application functionality. Happy developers make the best code. To this end, we've attempted to combine the very best of what we have seen in other web frameworks, including frameworks implemented in other languages, such as Ruby on Rails, ASP.NET MVC, and Sinatra.
+In order to help video preservationists best understand and analyze their content it is important to first understand the behavior of these tools.
 
-Laravel is accessible, yet powerful, providing powerful tools needed for large, robust applications. A superb inversion of control container, expressive migration system, and tightly integrated unit testing support give you the tools you need to build any application with which you are tasked.
+This proposal is to create a simple viewer that will display selected attributes from multiple tools, and highlight differences between them. The viewer should also display the name and version of the tool that has been used. Ideally this could be used for batches of video at once, but one at a time would be a good start.
 
-## Official Documentation
-
-Documentation for the entire framework can be found on the [Laravel website](http://laravel.com/docs).
-
-### Contributing To Laravel
-
-**All issues and pull requests should be filed on the [laravel/framework](http://github.com/laravel/framework) repository.**
-
-### License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT)
+Inspired and intended to aid the work of Joanna Phillips (Guggenheim), Agathe Jarczkyk (Bern University of the Arts), and Erik Piil (Anthology / DuArt).
