@@ -1,5 +1,6 @@
 /bootstrap/compiled.php
 /vendor
+.idea/
 /videos
 /frontend/node_modules
 /frontend/app/bower_components
