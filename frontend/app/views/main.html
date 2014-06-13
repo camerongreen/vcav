@@ -1,0 +1,24 @@
+<div class="hero-unit">
+  <h1>Video Characterization Analysis Viewer</h1>
+  <div>
+  File:
+  <select ng-model="myFile" ng-options="file for file in files" ng-change="update()"></select><br>
+  </div>
+  <div class="grid">
+    <div class="gridpiece" ng-repeat="(gtype, gvalues) in gdata">
+      <h2>{{gtype}}</h2>
+    <table class="table">
+      <tr>
+        <th>Value</th>
+        <th>FFProbe</th>
+        <th>MediaInfo</th>
+      </tr>
+      <tr ng-repeat="(gkey, grows) in gvalues">
+        <td>{{gkey}}</td>
+        <td>{{grows.FFProbe}}</td>
+        <td>{{grows.MediaInfo}}</td>
+      </tr>
+    </table>
+    </div>
+  </div>
+</div>

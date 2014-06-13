@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Mediainfo version="0.7.68">
+<File>
+<track type="General">
+<Count>284</Count>
+<StreamCount>1</StreamCount>
+<StreamKind>General</StreamKind>
+<StreamKind_String>General</StreamKind_String>
+<StreamKindID>0</StreamKindID>
+<VideoCount>1</VideoCount>
+<OtherCount>2</OtherCount>
+<Video_Format_List>MPEG-4 Visual</Video_Format_List>
+<Video_Format_WithHint_List>MPEG-4 Visual</Video_Format_WithHint_List>
+<Video_Codec_List>MPEG-4 Visual</Video_Codec_List>
+<Video_Language_List>en</Video_Language_List>
+<Other_Format_List>System / System Core</Other_Format_List>
+<Other_Format_WithHint_List>System / System Core</Other_Format_WithHint_List>
+<Other_Language_List>en / en</Other_Language_List>
+<CompleteName>videos/mpeg4conformance.mp4</CompleteName>
+<FolderName>videos</FolderName>
+<FileName>mpeg4conformance</FileName>
+<FileExtension>mp4</FileExtension>
+<Format>MPEG-4</Format>
+<Format_String>MPEG-4</Format_String>
+<Format_Extensions>mp4 m4v m4a m4b m4p 3gpp 3gp 3gpp2 3g2 k3g jpm jpx mqv ismv isma f4v</Format_Extensions>
+<Format_Commercial>MPEG-4</Format_Commercial>
+<Format_Profile>Base Media</Format_Profile>
+<InternetMediaType>video/mp4</InternetMediaType>
+<CodecID>isom</CodecID>
+<CodecID_Url>http://www.apple.com/quicktime/download/standalone.html</CodecID_Url>
+<Codec>MPEG-4</Codec>
+<Codec_String>MPEG-4</Codec_String>
+<Codec_Extensions>mp4 m4v m4a m4b m4p 3gpp 3gp 3gpp2 3g2 k3g jpm jpx mqv ismv isma f4v</Codec_Extensions>
+<FileSize>1540622</FileSize>
+<FileSize_String>1.47 MiB</FileSize_String>
+<FileSize_String1>1 MiB</FileSize_String1>
+<FileSize_String2>1.5 MiB</FileSize_String2>
+<FileSize_String3>1.47 MiB</FileSize_String3>
+<FileSize_String4>1.469 MiB</FileSize_String4>
+<Duration>54900</Duration>
+<Duration_String>54s 900ms</Duration_String>
+<Duration_String1>54s 900ms</Duration_String1>
+<Duration_String2>54s 900ms</Duration_String2>
+<Duration_String3>00:00:54.900</Duration_String3>
+<OverallBitRate_Mode>VBR</OverallBitRate_Mode>
+<OverallBitRate_Mode_String>VBR</OverallBitRate_Mode_String>
+<OverallBitRate>224499</OverallBitRate>
+<OverallBitRate_String>224 Kbps</OverallBitRate_String>
+<StreamSize>14488</StreamSize>
+<StreamSize_String>14.1 KiB (1%)</StreamSize_String>
+<StreamSize_String1>14 KiB</StreamSize_String1>
+<StreamSize_String2>14 KiB</StreamSize_String2>
+<StreamSize_String3>14.1 KiB</StreamSize_String3>
+<StreamSize_String4>14.15 KiB</StreamSize_String4>
+<StreamSize_String5>14.1 KiB (1%)</StreamSize_String5>
+<StreamSize_Proportion>0.00940</StreamSize_Proportion>
+<HeaderSize>20</HeaderSize>
+<DataSize>1526142</DataSize>
+<FooterSize>14460</FooterSize>
+<IsStreamable>No</IsStreamable>
+<Encoded_Date>UTC 1943-01-06 21:59:04</Encoded_Date>
+<Tagged_Date>UTC 1943-01-06 21:59:04</Tagged_Date>
+<File_Modified_Date>UTC 2006-02-21 19:52:04</File_Modified_Date>
+<File_Modified_Date_Local>2006-02-21 21:52:04</File_Modified_Date_Local>
+</track>
+
+<track type="Video">
+<Count>274</Count>
+<StreamCount>1</StreamCount>
+<StreamKind>Video</StreamKind>
+<StreamKind_String>Video</StreamKind_String>
+<StreamKindID>0</StreamKindID>
+<StreamOrder>0</StreamOrder>
+<ID>1</ID>
+<ID_String>1</ID_String>
+<Format>MPEG-4 Visual</Format>
+<Format_Commercial>MPEG-4 Visual</Format_Commercial>
+<Format_Profile>Advanced Simple@L3</Format_Profile>
+<Format_Settings>BVOP</Format_Settings>
+<Format_Settings_BVOP>Yes</Format_Settings_BVOP>
+<Format_Settings_BVOP_String>Yes</Format_Settings_BVOP_String>
+<Format_Settings_QPel>No</Format_Settings_QPel>
+<Format_Settings_QPel_String>No</Format_Settings_QPel_String>
+<Format_Settings_GMC>0</Format_Settings_GMC>
+<Format_Settings_GMC_String> warppoint0</Format_Settings_GMC_String>
+<Format_Settings_Matrix>Default (H.263)</Format_Settings_Matrix>
+<Format_Settings_Matrix_String>Default (H.263)</Format_Settings_Matrix_String>
+<InternetMediaType>video/MP4V-ES</InternetMediaType>
+<CodecID>20</CodecID>
+<Codec>MPEG-4V</Codec>
+<Codec_String>MPEG-4 Visual</Codec_String>
+<Codec_Family>MPEG-4V</Codec_Family>
+<Codec_CC>20</Codec_CC>
+<Codec_Profile>Advanced Simple@L3</Codec_Profile>
+<Codec_Settings>BVOP</Codec_Settings>
+<Codec_Settings_PacketBitStream>No</Codec_Settings_PacketBitStream>
+<Codec_Settings_BVOP>Yes</Codec_Settings_BVOP>
+<Codec_Settings_QPel>No</Codec_Settings_QPel>
+<Codec_Settings_GMC>0</Codec_Settings_GMC>
+<Codec_Settings_GMC_String> warppoint0</Codec_Settings_GMC_String>
+<Codec_Settings_Matrix>Default (H.263)</Codec_Settings_Matrix>
+<Duration>54900</Duration>
+<Duration_String>54s 900ms</Duration_String>
+<Duration_String1>54s 900ms</Duration_String1>
+<Duration_String2>54s 900ms</Duration_String2>
+<Duration_String3>00:00:54.900</Duration_String3>
+<BitRate_Mode>VBR</BitRate_Mode>
+<BitRate_Mode_String>VBR</BitRate_Mode_String>
+<BitRate>221983</BitRate>
+<BitRate_String>222 Kbps</BitRate_String>
+<BitRate_Maximum>474888</BitRate_Maximum>
+<BitRate_Maximum_String>475 Kbps</BitRate_Maximum_String>
+<Width>352</Width>
+<Width_String>352 pixel2</Width_String>
+<Height>240</Height>
+<Height_String>240 pixel3</Height_String>
+<PixelAspectRatio>1.000</PixelAspectRatio>
+<DisplayAspectRatio>1.467</DisplayAspectRatio>
+<DisplayAspectRatio_String>3:2</DisplayAspectRatio_String>
+<Rotation>0.000</Rotation>
+<FrameRate_Mode>CFR</FrameRate_Mode>
+<FrameRate_Mode_String>CFR</FrameRate_Mode_String>
+<FrameRate>30.000</FrameRate>
+<FrameRate_String>30.000 fps3</FrameRate_String>
+<FrameCount>1647</FrameCount>
+<Standard>NTSC</Standard>
+<Resolution>8</Resolution>
+<Resolution_String>8 bit3</Resolution_String>
+<ColorSpace>YUV</ColorSpace>
+<BitDepth>8</BitDepth>
+<BitDepth_String>8 bit3</BitDepth_String>
+<ScanType>Progressive</ScanType>
+<ScanType_String>Progressive</ScanType_String>
+<Interlacement>PPF</Interlacement>
+<Interlacement_String>Interlaced_PPF</Interlacement_String>
+<Compression_Mode>Lossy</Compression_Mode>
+<Compression_Mode_String>Lossy</Compression_Mode_String>
+<Bits_Pixel_Frame_>0.088</Bits_Pixel_Frame_>
+<StreamSize>1526134</StreamSize>
+<StreamSize_String>1.46 MiB (99%)</StreamSize_String>
+<StreamSize_String1>1 MiB</StreamSize_String1>
+<StreamSize_String2>1.5 MiB</StreamSize_String2>
+<StreamSize_String3>1.46 MiB</StreamSize_String3>
+<StreamSize_String4>1.455 MiB</StreamSize_String4>
+<StreamSize_String5>1.46 MiB (99%)</StreamSize_String5>
+<StreamSize_Proportion>0.99060</StreamSize_Proportion>
+<Language>en</Language>
+<Language_String>en</Language_String>
+<Language_String1>en</Language_String1>
+<Language_String2>en</Language_String2>
+<Language_String3>eng</Language_String3>
+<Language_String4>en</Language_String4>
+<Encoded_Date>UTC 1943-01-06 21:59:04</Encoded_Date>
+<Tagged_Date>UTC 1943-01-06 21:59:04</Tagged_Date>
+</track>
+
+<track type="Other" streamid="1">
+<Count>60</Count>
+<StreamCount>2</StreamCount>
+<StreamKind>Other</StreamKind>
+<StreamKind_String>Other</StreamKind_String>
+<StreamKindID>0</StreamKindID>
+<StreamKindPos>1</StreamKindPos>
+<StreamOrder>1</StreamOrder>
+<ID>2</ID>
+<ID_String>2</ID_String>
+<Type>Object description</Type>
+<Format>System</Format>
+<Format_Commercial>System</Format_Commercial>
+<CodecID>1</CodecID>
+<Duration>1</Duration>
+<Duration_String>1ms</Duration_String>
+<Duration_String1>1ms</Duration_String1>
+<Duration_String2>1ms</Duration_String2>
+<Duration_String3>00:00:00.001</Duration_String3>
+<Language>en</Language>
+<Language_String>en</Language_String>
+<Language_String1>en</Language_String1>
+<Language_String2>en</Language_String2>
+<Language_String3>eng</Language_String3>
+<Language_String4>en</Language_String4>
+<Encoded_Date>UTC 1943-01-06 21:59:04</Encoded_Date>
+<Tagged_Date>UTC 1943-01-06 21:59:04</Tagged_Date>
+</track>
+
+<track type="Other" streamid="2">
+<Count>60</Count>
+<StreamCount>2</StreamCount>
+<StreamKind>Other</StreamKind>
+<StreamKind_String>Other</StreamKind_String>
+<StreamKindID>1</StreamKindID>
+<StreamKindPos>2</StreamKindPos>
+<StreamOrder>2</StreamOrder>
+<ID>3</ID>
+<ID_String>3</ID_String>
+<Type>Scene description</Type>
+<Format>System Core</Format>
+<Format_Commercial>System Core</Format_Commercial>
+<CodecID>2</CodecID>
+<Duration>1</Duration>
+<Duration_String>1ms</Duration_String>
+<Duration_String1>1ms</Duration_String1>
+<Duration_String2>1ms</Duration_String2>
+<Duration_String3>00:00:00.001</Duration_String3>
+<Language>en</Language>
+<Language_String>en</Language_String>
+<Language_String1>en</Language_String1>
+<Language_String2>en</Language_String2>
+<Language_String3>eng</Language_String3>
+<Language_String4>en</Language_String4>
+<Encoded_Date>UTC 1943-01-06 21:59:04</Encoded_Date>
+<Tagged_Date>UTC 1943-01-06 21:59:04</Tagged_Date>
+</track>
+
+</File>
+</Mediainfo>
+

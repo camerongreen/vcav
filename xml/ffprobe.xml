@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ffprobe>
+    <program_version version="2.2.2" copyright="Copyright (c) 2007-2014 the FFmpeg developers" build_date="May  7 2014" build_time="16:26:38" compiler_ident="Apple LLVM version 5.1 (clang-503.0.40) (based on LLVM 3.4svn)" configuration="--prefix=/usr/local/Cellar/ffmpeg/2.2.2 --enable-shared --enable-pthreads --enable-gpl --enable-version3 --enable-nonfree --enable-hardcoded-tables --enable-avresample --enable-vda --cc=clang --host-cflags= --host-ldflags= --enable-libx264 --enable-libfaac --enable-libmp3lame --enable-libxvid"/>
+
+    <library_versions>
+        <library_version name="libavutil" major="52" minor="66" micro="100" version="3424868" ident="Lavu52.66.100"/>
+        <library_version name="libavcodec" major="55" minor="52" micro="102" version="3617894" ident="Lavc55.52.102"/>
+        <library_version name="libavformat" major="55" minor="33" micro="100" version="3613028" ident="Lavf55.33.100"/>
+        <library_version name="libavdevice" major="55" minor="10" micro="100" version="3607140" ident="Lavd55.10.100"/>
+        <library_version name="libavfilter" major="4" minor="2" micro="100" version="262756" ident="Lavfi4.2.100"/>
+        <library_version name="libswscale" major="2" minor="5" micro="102" version="132454" ident="SwS2.5.102"/>
+        <library_version name="libswresample" major="0" minor="18" micro="100" version="4708" ident="SwR0.18.100"/>
+        <library_version name="libpostproc" major="52" minor="3" micro="100" version="3408740" ident="postproc52.3.100"/>
+    </library_versions>
+
+    <streams>
+        <stream index="0" codec_name="mpeg4" codec_long_name="MPEG-4 part 2" profile="Advanced Simple Profile" codec_type="video" codec_time_base="1/25" codec_tag_string="mp4v" codec_tag="0x7634706d" width="688" height="320" has_b_frames="1" sample_aspect_ratio="1:1" display_aspect_ratio="43:20" pix_fmt="yuv420p" level="5" quarter_sample="0" divx_packed="0" r_frame_rate="25/1" avg_frame_rate="25/1" time_base="1/25000" start_pts="1000" start_time="0.040000" duration_ts="1143000" duration="45.720000" bit_rate="900274" nb_frames="1143" extradata="
+00000000: 0000 01b0 f500 0001 b509 0000 0100 0000  ................
+00000010: 0120 08ca 0d08 00ce 18ac 2140 a1c1 0000  . ........!@....
+00000020: 01b2 5876 6944 3030 3336 43              ..XviD0036C
+">
+            <disposition default="1" dub="0" original="0" comment="0" lyrics="0" karaoke="0" forced="0" hearing_impaired="0" visual_impaired="0" clean_effects="0" attached_pic="0"/>
+            <tag key="creation_time" value="2004-11-29 15:23:55"/>
+            <tag key="language" value="und"/>
+            <tag key="handler_name" value="GPAC ISO Video Handler"/>
+        </stream>
+        <stream index="1" codec_name="aac" codec_long_name="AAC (Advanced Audio Coding)" codec_type="audio" codec_time_base="1/48000" codec_tag_string="mp4a" codec_tag="0x6134706d" sample_fmt="fltp" sample_rate="48000" channels="2" channel_layout="stereo" bits_per_sample="0" r_frame_rate="0/0" avg_frame_rate="0/0" time_base="1/48000" start_pts="0" start_time="0.000000" duration_ts="2187264" duration="45.568000" bit_rate="105445" nb_frames="2136" extradata="
+00000000: 0990                                     ..
+">
+            <disposition default="1" dub="0" original="0" comment="0" lyrics="0" karaoke="0" forced="0" hearing_impaired="0" visual_impaired="0" clean_effects="0" attached_pic="0"/>
+            <tag key="creation_time" value="2004-12-06 10:27:30"/>
+            <tag key="language" value="und"/>
+            <tag key="handler_name" value="GPAC ISO Audio Handler"/>
+        </stream>
+        <stream index="2" codec_name="aac" codec_long_name="AAC (Advanced Audio Coding)" codec_type="audio" codec_time_base="1/48000" codec_tag_string="mp4a" codec_tag="0x6134706d" sample_fmt="fltp" sample_rate="48000" channels="2" channel_layout="stereo" bits_per_sample="0" r_frame_rate="0/0" avg_frame_rate="0/0" time_base="1/48000" start_pts="0" start_time="0.000000" duration_ts="2187264" duration="45.568000" bit_rate="111418" nb_frames="2136" extradata="
+00000000: 0990                                     ..
+">
+            <disposition default="1" dub="0" original="0" comment="0" lyrics="0" karaoke="0" forced="0" hearing_impaired="0" visual_impaired="0" clean_effects="0" attached_pic="0"/>
+            <tag key="creation_time" value="2004-12-06 10:27:30"/>
+            <tag key="language" value="und"/>
+            <tag key="handler_name" value="GPAC ISO Audio Handler"/>
+        </stream>
+        <stream index="3" codec_name="mov_text" codec_long_name="3GPP Timed Text subtitle" codec_type="subtitle" codec_time_base="1/1000" codec_tag_string="tx3g" codec_tag="0x67337874" width="688" height="320" r_frame_rate="0/0" avg_frame_rate="0/0" time_base="1/1000" start_pts="0" start_time="0.000000" duration_ts="48570" duration="48.570000" bit_rate="74" nb_frames="23" extradata="
+00000000: 0000 0000 01ff 0000 0000 0000 0000 0000  ................
+00000010: 0000 0000 0000 0001 0012 ffff ffff 0000  ................
+00000020: 0012 6674 6162 0001 0001 0553 6572 6966  ..ftab.....Serif
+">
+            <disposition default="1" dub="0" original="0" comment="0" lyrics="0" karaoke="0" forced="0" hearing_impaired="0" visual_impaired="0" clean_effects="0" attached_pic="0"/>
+            <tag key="creation_time" value="2004-12-06 10:27:30"/>
+            <tag key="language" value="und"/>
+            <tag key="handler_name" value="GPAC Streaming Text Handler"/>
+        </stream>
+        <stream index="4" codec_name="mov_text" codec_long_name="3GPP Timed Text subtitle" codec_type="subtitle" codec_time_base="1/1000" codec_tag_string="tx3g" codec_tag="0x67337874" width="688" height="320" r_frame_rate="0/0" avg_frame_rate="0/0" time_base="1/1000" start_pts="0" start_time="0.000000" duration_ts="48308" duration="48.308000" bit_rate="91" nb_frames="27" extradata="
+00000000: 0000 0000 01ff 0000 0000 0000 0000 0000  ................
+00000010: 0000 0000 0000 0001 0012 ffff ffff 0000  ................
+00000020: 0012 6674 6162 0001 0001 0553 6572 6966  ..ftab.....Serif
+">
+            <disposition default="1" dub="0" original="0" comment="0" lyrics="0" karaoke="0" forced="0" hearing_impaired="0" visual_impaired="0" clean_effects="0" attached_pic="0"/>
+            <tag key="creation_time" value="2004-12-06 10:27:30"/>
+            <tag key="language" value="und"/>
+            <tag key="handler_name" value="GPAC Streaming Text Handler"/>
+        </stream>
+    </streams>
+
+    <format filename="videos/1Video_2Audio_2SUBs(timed text streams).mp4" nb_streams="5" nb_programs="0" format_name="mov,mp4,m4a,3gp,3g2,mj2" format_long_name="QuickTime / MOV" start_time="0.000000" duration="48.570000" size="6414540" bit_rate="1056543" probe_score="100">
+        <tag key="major_brand" value="isom"/>
+        <tag key="minor_version" value="1"/>
+        <tag key="compatible_brands" value="isom"/>
+        <tag key="creation_time" value="2004-11-29 15:23:55"/>
+    </format>
+</ffprobe>
