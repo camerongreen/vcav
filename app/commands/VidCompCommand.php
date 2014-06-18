@@ -46,13 +46,64 @@
       $comparisonRunner = new ComparisonRunner();
       $output = $comparisonRunner->getFileOutput($file);
 
-      $this->showResults($output);
+      if ($this->option('xml')) {
+        $this->showResultsXml($output);
+      } else {
+        $this->showResults($output);
+      }
     }
 
     /**
-     * Show results
+     * Show results as xml
      *
-     * todo: add xml option
+     * @param array $results
+     */
+    protected function showResultsXML($results) {
+      $doc = new DomDocument("1.0");
+      $doc->formatOutput = true;
+
+      $root = $doc->createElement('vidcomp');
+      $root = $doc->appendChild($root);
+
+      foreach ($results as $header => $tests) {
+        $section = $doc->createElement('section');
+        $root->appendChild($section);
+        $sectionTitle = $doc->createElement('section-title');
+        $section->appendChild($sectionTitle);
+        $sectionText = $doc->createTextNode($header);
+        $sectionTitle->appendChild($sectionText);
+
+        foreach ($tests as $test => $toolResults) {
+          $testType = $doc->createElement('test');
+          $section->appendChild($testType);
+          $testTitle = $doc->createElement('test-title');
+          $testType->appendChild($testTitle);
+          $typeText = $doc->createTextNode($test);
+          $testTitle->appendChild($typeText);
+
+          foreach ($toolResults as $tool => $toolResult) {
+            $toolType = $doc->createElement('tool');
+            $testType->appendChild($toolType);
+            $toolName = $doc->createElement('name');
+            $toolType->appendChild($toolName);
+            $toolText = $doc->createTextNode($tool);
+            $toolName->appendChild($toolText);
+
+            $toolResultType = $doc->createElement('result');
+            $toolType->appendChild($toolResultType);
+            $toolResultText = $doc->createTextNode($toolResult);
+            $toolResultType->appendChild($toolResultText);
+          }
+        }
+      }
+
+      echo $doc->saveXML();
+    }
+
+    /**
+     * Show results to console
+     *
+     * @param array $results
      */
     protected function showResults($results) {
       foreach ($results as $header => $tests) {
@@ -83,7 +134,7 @@
      * @return array
      */
     protected function getOptions() {
-      return array( //array('example', null, InputOption::VALUE_OPTIONAL, 'An example option.', null),
+      return array(array('xml', null, InputOption::VALUE_NONE, 'Output results as xml.', null),
       );
     }
 
